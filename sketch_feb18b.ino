@@ -35,9 +35,9 @@ void loop() {
       //lcd.print(x);
     }
     displayScrollingMessage(s, 200);
-    //rotateServo(90);
-    //toggleLED(); // Toggle LED on then off
-    //playTone(1000, 500); // 1000 Hz for 500 ms
+    rotateServo(90);
+    toggleLED(); // Toggle LED on then off
+    playTone(1000, 500); // 1000 Hz for 500 ms
     delay(2); // Wait for 2 seconds before repeating
     s = "";
 }
